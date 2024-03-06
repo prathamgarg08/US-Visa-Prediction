@@ -54,9 +54,13 @@ MODEL_TRAINER_EXPECTED_SCORE:str=0.6
 MODEL_TRAINER_MODEL_CONFIG_FILE_PATH:str=os.path.join('config','model.yaml')
 
 """
-Model evaluation related constants
+Model evaluation/pusher related constants
 """
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE:float=0.6
 MODEL_BUCKET_NAME="usvisa-model"
 MODEL_PUSHER_S3_KEY="model-registry"
+
+APP_HOST="0.0.0.0"
+APP_PORT=8080
+
 
